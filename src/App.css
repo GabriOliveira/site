@@ -1,0 +1,149 @@
+.App {
+ display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-image: url("https://images4.alphacoders.com/104/1049584.jpg?dl=1");
+  background-size: 40%;
+  background-position: center left ;
+  background-repeat: no-repeat;
+  
+
+}
+
+body{
+  height: 100vh;
+}
+
+.cabeçalho{
+  display : flex;
+  background-color: #282c34;
+  color: white;
+  min-width: 100%;
+  
+  
+  
+}
+
+
+
+nav{
+  display: flex;
+  flex-wrap: nowrap;
+  min-width : 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+
+main{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  flex-direction: column;
+  padding: 20px;
+}
+
+p{
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+footer{
+  display: flex;
+  color: aqua;
+  flex-direction: column;
+  
+}
+
+@media screen and  (min-width:412px ) and (max-width : 390px) {
+ .cabeçalho{ 
+  width: 10%;
+  
+}
+
+main{
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  
+  height: 100%;
+}
+nav{
+  min-width : 10%;
+}
+
+}
+
+@media screen and (max-width :412px){
+  .conteudo
+  iframe{
+    width: 90%;
+    
+  };
+}
+
+.final{
+  background-color: #282c34;
+  
+  
+}
+
+@media screen and (max-width : 820px) {
+  .App{
+    background-size: 100%;
+    background-position: center;
+  }
+  main{
+    backdrop-filter: blur(15px);
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width : 412px) {
+  main{
+    height: 100%;
+    padding: 0%;
+  }
+}
+
+@media screen and (min-width : 540px) {
+  main{height : 100%;
+}
+}
+
+@media screen and (min-width : 912px) {
+  .App{
+    height: 100vh;
+  }
+  
+  main{
+    backdrop-filter: blur(10px);
+    background-size: 100%;
+  }
+}
+@media screen and (min-width : 820px) {
+  .App{
+    height: 100vh;
+  }
+}
+@media screen and (min-width : 768px) {
+  .App{
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width : 414px) {
+  .App{
+    height: 100vh;
+  }
+  main{
+    height: 200vh;
+  }
+  .conteudo
+  iframe{
+    width: 100%;
+  }
+}
